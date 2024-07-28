@@ -30,9 +30,9 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001786924542'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5469498838').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002046685711').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002004346552').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
@@ -68,7 +68,7 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'teekam_jaat') # owner username w
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+X6JIRNl5xeQxYzY1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/tj_bots')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/tj_bots_zyz/3')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/indiaearnofficial/13')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TJ_BOTS_SUPPORT') # Support Chat Link Without https:// or @
 
 # True Or False
@@ -102,8 +102,8 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/tj_bots_zyz/3')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'zipshort.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'c6bf8cb7fdbe48042e55a40955112c379340c0c9')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Urlshortxyz.xyz')
+SHORTLINK_API = environ.get('SHORTLINK_API', '0a2cfa89d2c2d38ba6a6fda3e3d493d096a6a9c7')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "10")
@@ -138,7 +138,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://super-mehetabel-tjbot-469d39c2.koyeb.app/")
+URL = environ.get("URL", "https://graceful-ruthie-teekam-626e60b1.koyeb.app/")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
