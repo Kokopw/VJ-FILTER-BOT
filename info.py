@@ -68,7 +68,7 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'teekam_jaat') # owner username w
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+X6JIRNl5xeQxYzY1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/tj_bots')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/indiaearnofficial/13')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/tj_bots_zyz/3')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TJ_BOTS_SUPPORT') # Support Chat Link Without https:// or @
 
 # True Or False
@@ -102,8 +102,8 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/tj_bots_zyz/3')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Urlshortxyz.xyz')
-SHORTLINK_API = environ.get('SHORTLINK_API', '99a7604fd923a7f58c1690c858b2ee18237c4e17')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'zipshort.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'c6bf8cb7fdbe48042e55a40955112c379340c0c9')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "10")
