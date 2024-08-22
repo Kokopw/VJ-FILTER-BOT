@@ -21,6 +21,9 @@ from TechVJ.util.file_properties import get_name, get_hash, get_media_file_size
 from plugins.Extra.save_restrict_content.save import run_save, get_link
 from plugins.Extra.save_restrict_content.join import join
 
+import os
+req_channel = int(os.environ.get('REQ_CHANNEL', '')
+
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
 lock = asyncio.Lock()
@@ -142,6 +145,7 @@ async def next_page(bot, query):
         n_offset = 0
 
     if not files:
+        await client.send_message(REQ_CHANNEL, f"#REQUESTED_LOGS \n\n**CONTENT NAME:** `{search}` \n**REQUESTED BY :** {message.from_user.first_name}\n**USER ID :** {message.from_user.id}", repl_markup=InlineKeyboardMarkup([[InlineKeyboardButton("❤️‍🔥Mark as Done", callback_data="close_data")]]))
         return
     temp.GETALL[key] = files
     temp.SHORT[query.from_user.id] = query.message.chat.id
