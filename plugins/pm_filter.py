@@ -22,7 +22,7 @@ from plugins.Extra.save_restrict_content.save import run_save, get_link
 from plugins.Extra.save_restrict_content.join import join
 
 import os
-req_channel = int(os.environ.get('REQ_CHANNEL', '')
+req_channel = int(os.environ.get('REQ_CHANNEL', '-1002115486459')
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
