@@ -102,8 +102,8 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/tj_bots_zyz/3')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Zipshort.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'c6bf8cb7fdbe48042e55a40955112c379340c0c9')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
+SHORTLINK_API = environ.get('SHORTLINK_API', '')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "10")
@@ -138,7 +138,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://tjbots.koyeb.app/")
+URL = environ.get("URL", "https://teekam-ec01bbc2.koyeb.app/")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
