@@ -1,4 +1,5 @@
-pyrofork
+#pyrofork
+git+https://github.com/Sahidmalik001/pyrofork-m
 tgcrypto 
 requests 
 bs4 
