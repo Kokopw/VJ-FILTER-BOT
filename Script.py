@@ -14,7 +14,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
     ABOUT_TXT = """<b><blockquote>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟</blockquote>
     
 ‣ MY OWNER : <a href=https://t.me/CharlieWatson1>ᴄʜᴀʀʟɪᴇ</a 
-‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/CharlieWatson1>ᴄʜᴀʀʟɪᴇ</a> 
+‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/CharlieWatson1></a> 
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
